@@ -4,6 +4,14 @@ import imutils
 import cv2
 import pandas as pd
 import pythoncom, pyHook
+"""
+The purpose of this script is to be able to save images off of a screen quickly and painlessly.
+Just open up the application that you are trying to grab images of so it displays on your screen,
+move your mouse over the image you are trying to target (in the Runescape bot I put it over the rock) and press 'Enter'.
+A png of your screen will then be saved in the images folder and the discription and location of the target will be recorded in the annotations.csv
+
+"""
+
 
 
 # Create function add list to dataframe as new row
